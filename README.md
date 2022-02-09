@@ -8,6 +8,11 @@ TODO: containernize
 * some eslint rules
 
 
+## prepare
+
+```
+nodenv update; cat .node-version | nodenv install
+```
 
 
 ## initialize vite
