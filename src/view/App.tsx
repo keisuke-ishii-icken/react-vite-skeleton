@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import '@/view/App.css'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'

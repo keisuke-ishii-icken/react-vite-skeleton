@@ -1,11 +1,12 @@
 # skeleton project
 
 
-typescript, vite, react, storybook, router
-
-TODO: redux, jest
-
+* typescript, vite, react, storybook, router  
+TODO: redux, jest  
 TODO: containernize
+* import by absolute path
+* some eslint rules
+
 
 
 

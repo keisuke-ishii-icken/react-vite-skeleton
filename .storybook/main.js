@@ -12,6 +12,7 @@ module.exports = {
   core: {
     'builder': 'storybook-builder-vite',
   },
+  port: 26000,
   viteFinal: async (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,

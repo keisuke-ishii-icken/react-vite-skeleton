@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Button } from '@/stories/Button'
-import '@/stories/header.css'
+import { Button } from '@/component/Button'
+import '@/component/header.css'
 
 interface HeaderProps {
   user?: {};

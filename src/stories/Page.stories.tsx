@@ -1,7 +1,7 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import { Page } from '@/stories/Page'
+import { Page } from '@/component/Page'
 import * as HeaderStories from '@/stories/Header.stories'
 
 export default {
