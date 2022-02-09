@@ -1,3 +1,11 @@
+# skeleton project
+
+
+typescript, vite, react, storybook, router
+
+TODO: redux, jest
+
+TODO: containernize
 
 
 
