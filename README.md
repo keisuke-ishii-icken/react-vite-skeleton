@@ -2,7 +2,7 @@
 
 
 * typescript, vite, react, storybook, router  
-TODO: redux, jest  
+TODO: jest  
 TODO: containernize
 * import by absolute path
 * some eslint rules
