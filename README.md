@@ -1,13 +1,30 @@
 # skeleton project
 
 ## Objective
+
 Skeleton project for Frontend module(typescript, vite, react(router, redux), storybook)
 
 
-TODO: containernize
+## Feature
+
 * import by absolute path
 * some eslint rules
 * source and test file in same dir
+* using npm(not yarn) because of affinity for some library or environment.
+
+
+## How to use
+
+* download this repository as zip
+* rename project(grep 'react-vite-skeleton')
+* modify LICENSE
+* npm install
+  * If you want use yarn, run `yarn import` & `yarn`
+  
+
+## TODO
+
+* containernize
 
 
 
@@ -40,6 +57,10 @@ Done. Now run:
 npm install
 ```
 
+### modify config
+* tsconfig.json
+* vite.config.ts
+
 
 ### storybook
 
@@ -48,6 +69,8 @@ npx sb@next init --builder storybook-builder-vite
 npm run storybook
 ```
 
+### modify config
+* .storybook/main.js
 
 ### eslint
 
@@ -70,6 +93,10 @@ npm install --save-dev eslint-plugin-import
 npm install -D eslint-import-resolver-typescript eslint-import-resolver-alias
 ```
 
+### modify config
+* .eslintignore
+* .eslintrc.js
+
 ### redux
 
 ```
@@ -80,7 +107,9 @@ npm install redux react-redux
 ### jest
 
 ```
-
-
+npm i jest @types/jest ts-jest -D
 ```
 
+### modify config
+* jest.config.js
+* package.json
