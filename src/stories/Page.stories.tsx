@@ -1,5 +1,5 @@
-import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
+import React from 'react'
 
 import { Page } from '@/component/Page'
 import * as HeaderStories from '@/stories/Header.stories'

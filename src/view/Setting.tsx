@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-
-import '@/view/App.css'
 import { useSelector } from 'react-redux'
+
 import store from '@/store'
 import { selectSetting } from '@/store/setting'
+import '@/view/App.css'
 
 function Setting() {
   const setting = useSelector(selectSetting)

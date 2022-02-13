@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 
 import '@/view/App.css'
-import { selectDashboard } from '@/store/dashboard'
 import store from '@/store'
+import { selectDashboard } from '@/store/dashboard'
 
 function Dashboard() {
   const dashboard = useSelector(selectDashboard)

@@ -1,9 +1,9 @@
 import React from 'react'
-
-import '@/view/App.css'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+
 import Dashboard from '@/view/Dashboard'
 import Setting from '@/view/Setting'
+import '@/view/App.css'
 
 function App() {
   return (

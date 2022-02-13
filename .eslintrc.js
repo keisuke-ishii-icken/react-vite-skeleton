@@ -23,6 +23,22 @@ module.exports = {
     'no-unexpected-multiline': 'error',
     'no-unreachable': 'error',
 
+    // import
+    'import/order': [
+      'error',
+      {
+        'groups': ['builtin', 'external', 'parent', 'sibling', 'index', 'object', 'type'],
+        'pathGroups': [
+          { pattern: '@alias/**', group: 'parent', position: 'before' },
+        ],
+        'alphabetize': { order: 'asc' },
+        'newlines-between': 'always',
+      },
+    ],
+    'import/no-absolute-path': 'off',
+    'import/extensions': ['error', 'ignorePackages', { js: 'never', jsx: 'never', ts: 'never', tsx: 'never' }],
+    'no-restricted-imports': ['error', { 'patterns': ['../*', './*', '~/*'] }],
+
     'no-undef': 'warn',
     'quotes': ['error', 'single'],
     'space-before-blocks': ['warn', { 'functions': 'always' }],
