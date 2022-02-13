@@ -71,9 +71,18 @@ npm install -D eslint-import-resolver-typescript eslint-import-resolver-alias
 
 ```
 
+## redux
+
+```
+npm install redux react-redux
+
+```
+
+
 ## jest
 
 ```
 
 
 ```
+
