@@ -59,9 +59,6 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/no-unused-vars': [2, { 'args': 'none' }],
-    'no-restricted-imports': ['error', {
-      'patterns': ['../*', './*', '~/*'],
-    }],
   },
   'settings': {
     'import/resolver': {

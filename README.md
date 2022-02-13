@@ -33,7 +33,6 @@ Done. Now run:
 
 
 npm install
-
 ```
 
 
@@ -42,14 +41,12 @@ npm install
 ```
 npx sb@next init --builder storybook-builder-vite
 npm run storybook
-
 ```
 
 
 ## eslint
 
 ```
-
 npm install eslint --save-dev
 npm init @eslint/config
 
@@ -61,21 +58,17 @@ npm init @eslint/config
 ✔ How would you like to define a style for your project? · guide
 ✔ Which style guide do you want to follow? · google
 ✔ What format do you want your config file to be in? · JavaScript
-
-
 ```
 
 ```
 npm install --save-dev eslint-plugin-import 
 npm install -D eslint-import-resolver-typescript eslint-import-resolver-alias
-
 ```
 
 ## redux
 
 ```
 npm install redux react-redux
-
 ```
 
 
