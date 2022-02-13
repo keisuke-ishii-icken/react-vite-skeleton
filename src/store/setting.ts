@@ -1,8 +1,8 @@
 import { rootState } from '@/store/index'
 
 type settingState = {
-  settingA?: string;
-  settingB?: string;
+  settingA: string;
+  settingB: string;
 }
 const initialValue = {
   settingA: '',

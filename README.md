@@ -1,21 +1,26 @@
 # skeleton project
 
+## Objective
+Skeleton project for Frontend module(typescript, vite, react(router, redux), storybook)
 
-* typescript, vite, react(router, redux), storybook  
-TODO: jest  
+
 TODO: containernize
 * import by absolute path
 * some eslint rules
+* source and test file in same dir
 
 
-## prepare
+
+## install log
+
+### prepare
 
 ```
 nodenv update; cat .node-version | nodenv install
 ```
 
 
-## initialize vite
+### initialize vite
 
 ```
 npm init vite
@@ -36,7 +41,7 @@ npm install
 ```
 
 
-## storybook
+### storybook
 
 ```
 npx sb@next init --builder storybook-builder-vite
@@ -44,7 +49,7 @@ npm run storybook
 ```
 
 
-## eslint
+### eslint
 
 ```
 npm install eslint --save-dev
@@ -65,14 +70,14 @@ npm install --save-dev eslint-plugin-import
 npm install -D eslint-import-resolver-typescript eslint-import-resolver-alias
 ```
 
-## redux
+### redux
 
 ```
 npm install redux react-redux
 ```
 
 
-## jest
+### jest
 
 ```
 
