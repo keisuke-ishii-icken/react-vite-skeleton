@@ -1,7 +1,7 @@
 # skeleton project
 
 
-* typescript, vite, react, storybook, router  
+* typescript, vite, react(router, redux), storybook  
 TODO: jest  
 TODO: containernize
 * import by absolute path
