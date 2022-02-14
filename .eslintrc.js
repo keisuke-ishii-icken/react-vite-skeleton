@@ -45,15 +45,7 @@ module.exports = {
     'quotes': ['error', 'single'],
     'space-before-blocks': ['warn', { 'functions': 'always' }],
     'require-jsdoc': 'off',
-    'max-len': [
-      'error',
-      {
-        'code': 120,
-        'ignoreComments': true,
-        'ignoreUrls': true,
-        'ignoreStrings': true,
-      },
-    ],
+    'max-len': ['error', { 'code': 120, 'ignoreComments': true, 'ignoreUrls': true, 'ignoreStrings': true }],
     'object-curly-spacing': ['error', 'always'],
     'no-multiple-empty-lines': ['error', { 'max': 1, 'maxBOF': 0, 'maxEOF': 0 }],
 
@@ -68,7 +60,7 @@ module.exports = {
     {
       'files': ['**/*.json'],
       'rules': {
-        'quotes': [2, 'double'],
+        'quotes': ['error', 'double'],
         'comma-dangle': ['error', 'never'],
       },
     },
