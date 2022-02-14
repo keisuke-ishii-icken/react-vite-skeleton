@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { Header } from '@/component/Header'
 import '@/component/page.css'
 
@@ -31,7 +29,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }: PageProps) =>
       <ul>
         <li>
           Use a higher-level connected component. Storybook helps you compose such data from the
-          "args" of child component stories
+          &quot;args&quot; of child component stories
         </li>
         <li>
           Assemble data in the page component from your services. You can mock these services out

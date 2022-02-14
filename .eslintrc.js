@@ -1,7 +1,9 @@
+// eslint-disable-next-line no-undef
 module.exports = {
-  'env': { 'browser': true, 'es2021': true },
+  'env': { 'browser': true, 'es2021': true, 'jest/globals': true },
   'extends': [
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     'plugin:import/errors',
     'plugin:import/warnings',
     'google',
@@ -12,7 +14,7 @@ module.exports = {
     'ecmaVersion': 13,
     'sourceType': 'module',
   },
-  'plugins': ['react', '@typescript-eslint', 'import'],
+  'plugins': ['react', '@typescript-eslint', 'import', 'jest'],
   'ignorePatterns': ['.git', 'node_modules', 'dist', 'package-lock.json', 'yarn.lock'],
   'rules': {
     // semi coron
@@ -54,12 +56,23 @@ module.exports = {
     ],
     'object-curly-spacing': ['error', 'always'],
     'no-multiple-empty-lines': ['error', { 'max': 1, 'maxBOF': 0, 'maxEOF': 0 }],
+
+    'no-console': ['error'],
     // 'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // 'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/no-unused-vars': [2, { 'args': 'none' }],
   },
+  'overrides': [
+    {
+      'files': ['**/*.json'],
+      'rules': {
+        'quotes': [2, 'double'],
+        'comma-dangle': ['error', 'never'],
+      },
+    },
+  ],
   'settings': {
     'import/resolver': {
       'node': {
@@ -73,5 +86,7 @@ module.exports = {
         'extensions': ['.js', '.jsx', '.ts', '.tsx', '.json'],
       },
     },
-  },
+    'react': {
+      'version': 'detect',
+    } },
 }

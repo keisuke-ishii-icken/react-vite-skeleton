@@ -89,7 +89,7 @@ npm init @eslint/config
 ```
 
 ```
-npm install --save-dev eslint-plugin-import 
+npm install -D eslint-plugin-import 
 npm install -D eslint-import-resolver-typescript eslint-import-resolver-alias
 ```
 
@@ -108,6 +108,7 @@ npm install redux react-redux
 
 ```
 npm i jest @types/jest ts-jest -D
+npm install -D eslint-plugin-jest
 ```
 
 ### modify config

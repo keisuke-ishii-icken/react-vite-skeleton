@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { Button } from '@/component/Button'
 import '@/component/header.css'
 

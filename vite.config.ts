@@ -8,7 +8,7 @@ export default defineConfig({
   base: './',
   root: './src',
   build: {
-    outDir: '../public',
+    outDir: '../dist',
     emptyOutDir: true,
   },
   plugins: [react()],
@@ -19,6 +19,7 @@ export default defineConfig({
   },
   resolve: {
     alias: [
+      // eslint-disable-next-line no-undef
       { find: '@', replacement: path.resolve(__dirname, 'src') },
     ],
   },
