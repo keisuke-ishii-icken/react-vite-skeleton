@@ -1,12 +1,19 @@
 **/node_modules/**
 
+.git
+package-lock.json
+yarn.lock
+dist
+LICENSE
+
+*.jpg
+*.jpeg
+*.png
 *.svg
 *.css
 *.html
 *.md
 *.mdx
-dist
-LICENSE
 
 !.eslintrc.js
 !/.storybook
